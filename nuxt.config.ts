@@ -11,5 +11,5 @@ export default defineNuxtConfig({
         exposeConfig: true,
     },
 
-    buildModules: ['@nuxtjs/tailwindcss'],
+    modules: ['@nuxtjs/tailwindcss'],
 });
