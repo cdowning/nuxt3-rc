@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './variables';
+
+:root {
+    --bg-primary: #{$color-cream-00};
+}
+
+.dark-mode {
+    --bg-primary: #{$color-gray-40};
+}
